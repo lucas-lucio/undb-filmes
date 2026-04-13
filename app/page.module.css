@@ -1,0 +1,65 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.searchBar {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.searchBar button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: #f0f0f0;
+}
+
+.activeTab {
+  background: #0070f3 !important;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardBody {
+  padding: 10px;
+}
+
+.noPoster {
+  width: 150px;
+  height: 222px;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
